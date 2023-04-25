@@ -1,4 +1,12 @@
 /ll-env
-
-
+*.pyc
+*.pyo
+__pycache__/
+/media
+/staticfiles
+.env
+/venv
+/db.sqlite3
+*.log
+.idea/
 db.sqlite3

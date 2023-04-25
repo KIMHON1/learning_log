@@ -1,1 +1,1 @@
-crash course django books practice
+Django practice

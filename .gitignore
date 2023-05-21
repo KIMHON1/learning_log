@@ -1,12 +1,34 @@
-/ll-env
+# Python/Django specific
 *.pyc
 *.pyo
 __pycache__/
-/media
-/staticfiles
-.env
-/venv
-/db.sqlite3
+*.egg-info/
+dist/
+build/
+media/
+
+# Static files (if using collectstatic)
+staticfiles/
+
+# Django development server
 *.log
+
+# Database files (if using SQLite)
+*.sqlite3
+
+# IDE/Editor specific
 .idea/
-db.sqlite3
+.vscode/
+*.swp
+# PostgreSQL
+*.sql
+*.dump
+*.db
+*.bak
+*.pgdump
+# Environment
+.env
+.env.*
+*.env
+*.env.*
+config.py

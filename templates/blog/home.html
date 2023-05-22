@@ -1,0 +1,11 @@
+{% extends "master.html" %}
+
+{% block content %}
+
+    <p>helll</p>
+
+    {% for object in  article_list %}
+    <h1>  <a href="article/{{object.id}}/">{{object.title}}</a></h1>
+        
+    {% endfor %}
+{% endblock content %}
